@@ -17,19 +17,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".RememberGuess" />
-        <activity android:name=".RememberGuess" />
-        <activity android:name=".RememberGuess" />
         <activity android:name=".Level1EnterActivity" />
         <activity android:name=".TestAlphabet" />
         <activity android:name=".Level1Activity" />
         <activity android:name=".RemGuessMain" />
         <activity android:name=".Level2EnterActivity" />
         <activity android:name=".Sequencing" />
-        <activity android:name=".Level2Activity"></activity>
-        <activity android:name=".RemGuessNext"></activity>
+        <activity android:name=".Level2Activity" />
+        <activity android:name=".RemGuessNext" />
         <activity android:name=".ResultAlphabet" />
-        <activity android:name=".ResultSequence"></activity>
-    </application>
+        <activity android:name=".ResultSequence" />
+        <activity android:name=".FinishGame"></activity>
     </application>
 
 </manifest>

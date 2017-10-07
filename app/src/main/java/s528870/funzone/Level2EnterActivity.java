@@ -13,7 +13,7 @@ public class Level2EnterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_leve2_enter);
     }
     public void goToNextActivity(View v){
-        Intent in = new Intent(this, Level2Activity.class);
+        Intent in = new Intent(this, TestAlphabet.class);
         startActivity(in);
     }
 

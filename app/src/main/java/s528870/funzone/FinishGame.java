@@ -5,21 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ResultAlphabet extends AppCompatActivity {
+public class FinishGame extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result_alphabet);
+        setContentView(R.layout.activity_finish_game);
     }
 
     public void goToNextActivity(View v){
-        Intent in = new Intent(this, Sequencing.class);
+        Intent in = new Intent(this, MainActivity.class);
         startActivity(in);
     }
 
     public void goTopreviousActivity(View v){
-        Intent in = new Intent(this, TestAlphabet.class);
+        Intent in = new Intent(this, RememberGuess.class);
         startActivity(in);
     }
 }
