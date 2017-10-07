@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RememberGuess"></activity>
+        <activity android:name=".RememberGuess" />
+        <activity android:name=".RemGuessMain" />
+        <activity android:name=".RemGuessNext"></activity>
     </application>
 
 </manifest>
