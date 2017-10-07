@@ -17,8 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".RememberGuess" />
+        <activity android:name=".RememberGuess" />
+        <activity android:name=".TestAlphabet" />
         <activity android:name=".RemGuessMain" />
+        <activity android:name=".Sequencing" />
         <activity android:name=".RemGuessNext"></activity>
+        <activity android:name=".ResultAlphabet" />
+        <activity android:name=".ResultSequence"></activity>
     </application>
 
 </manifest>
