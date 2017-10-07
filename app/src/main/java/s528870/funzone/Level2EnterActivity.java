@@ -5,16 +5,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Level2EnterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_leve2_enter);
+    }
+    public void goToNextActivity(View v){
+        Intent in = new Intent(this, Level2Activity.class);
+        startActivity(in);
     }
 
-    public void goToNextActivity(View v){
-        Intent in = new Intent(this, Level1EnterActivity.class);
+    public void goTopreviousActivity(View v){
+        Intent in = new Intent(this, Level1Activity.class);
         startActivity(in);
     }
 }
